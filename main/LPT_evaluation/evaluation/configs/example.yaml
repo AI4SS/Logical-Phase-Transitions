@@ -1,0 +1,18 @@
+model:
+  provider: openai
+  model_name: your-model-name
+  base_url: http://localhost:8000/v1
+  api_key: your-api-key
+  temperature: 0
+  max_tokens: 10000
+evaluation:
+  data_path: data/ProverQA/unifiedinput.json
+  prompt_template: json_cot
+  use_chat_format: true
+  include_complexity: true
+  output_dir: results/proverqa_unified/ours_json_cot
+  max_examples: null
+  start_idx: null
+  end_idx: null
+  filter_by_complexity: null
+  filter_by_label: null

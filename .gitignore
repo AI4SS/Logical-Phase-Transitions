@@ -1,0 +1,210 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+# .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the Python version
+#   is elected by the tool chain. online documentation suggests this file should
+#   be checked in only in case of stand-alone applications.
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or even
+#   fail to install them. In that case, the lock file should be added to .gitignore.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   poetry.lock
+#   See https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm-python and .pdm-build
+.pdm-python
+.pdm-build
+
+# PEP 582; used by e.g. github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spydata
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Project specific ignores
+# Logs and temporary experiment data
+wandb/
+**/wandb/
+**/logs/
+*checkpoint*/
+# Keep modelweight directory structure but ignore weights
+modelweight/**/*.safetensors
+modelweight/**/*.pt
+modelweight/**/*.pth
+modelweight/**/*.bin
+!modelweight/**/.gitkeep
+!modelweight/**/README.md
+!modelweight/**/adapter_config.json
+**/results/
+!main/LPT_evaluation/results/.gitkeep
+!dataset/NSA-LR/test/test.json
+!dataset/NSA-LR/train/train.json
+train/
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.p
+prover9
+fof-prover9
+newauto
+newsax
+ladr_to_tptp
+tptp_to_ladr
+foffer
+pred_elim
+unfold
+demodulate
+search
+index_lits
+actions
+utilities
+TAGS
+LADR-2009-11A/bin/
+LADR-2009-11A/lib/
+LADR-2009-11A/provers.src/
+LADR-2009-11A/apps.examples/
+LADR-2009-11A/*.o
+LADR-2009-11A/Makefile
+LADR-2009-11A/config.log
+LADR-2009-11A/config.status
+LADR-2009-11A/libtool

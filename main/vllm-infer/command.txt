@@ -1,0 +1,5 @@
+python3 -m vllm.entrypoints.openai.api_server \
+    --model Qwen/Qwen2.5-7B-Instruct \
+    --enable-lora \
+    --lora-modules lpt-lora=/home/LPT/modelweight/ours-theta*/checkpoint \
+    --port 8080

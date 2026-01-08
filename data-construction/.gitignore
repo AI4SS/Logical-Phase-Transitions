@@ -1,0 +1,13 @@
+.DS_Store
+
+# Prover9 installation
+LADR-2009-11A/
+LADR-2009-11A.tar.gz
+
+# Generated data files
+logic_data/FOLIO/*.jsonl
+logic_data/ProverQA/*.json
+training_data/*.json
+logs
+data/wordnet_predicates_original.json
+data/wordnet_predicates_Republic.json
